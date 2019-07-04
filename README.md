@@ -139,3 +139,40 @@ Options supported by pwgen:
   -v or --no-vowels
         Do not use any vowels so as to avoid accidental nasty words
   ```
+
+  Example Usage:
+
+  ```
+  pwgen -s -y -c -n 14 1
+  ```
+  
+  This commamnd will generate one secure 14 character password using symbols, atleast 1 capital letter, and atleast 1 number. Its quick and easy. To generate lots of 14 character passwords at once you can either drop the "1" off at the end or choost a different number of passwords to generate.
+  
+6. Install Nano. Nano is a nice text editor for Linux terminal. I use it when opening up documents from emails I may receive from known contacts. Also I prefer nano to draft up emails, docs and even blog posts. 
+
+  ```
+  sudo apt install nano
+  ```
+ 7. (Optional) Install seahorse to manage pgp keys
+  
+  ```
+  sudo apt install seahorse
+  ```
+  
+ 8. (Optional) Ever want to learn or code in python? Yes you can install that to:
+ 
+  ```
+  sudo apt install python
+  ```
+  
+## Google Play Store apps
+
+1. Most new chrome os laptops come with the google play store. Here is the list of apps I run through the play store. The first app is a must because it will protect your network connection with a VPN client. Its great when traveling or using open wifi at a hotel.
+
+  - VPN by Private Internet access (You can sign up and pay for your accounts with giftcards if you want to use 0 personal info)
+  - Microsoft Remote Desktop (I use at home to tunnel into my hyper-v host and access my internal network labs)
+  - Microsoft Word, Excel, PowerPoint, Outlook, and OneDrive
+  - Slack
+  
+  
+Over time I'll add more to this doc. 
