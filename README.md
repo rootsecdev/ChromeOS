@@ -59,7 +59,7 @@ This is just a running list on enabling Linux Beta if your chrome os device supp
   
 Enabling will take you through a wizard and it will download about 300mb worth of data. It can take 5 to 10 mins to set up. 
 
-2. One you are finished open up your terminal icon. Update your linux terminal with the following commands:
+2. Once you are finished open up your terminal icon. Update your linux terminal with the following commands:
 
 ```
 sudo apt-get update
@@ -100,7 +100,7 @@ sudo apt update && sudo apt install signal-desktop
   
   I normally just download my keepass from OneDrive and run locally on Chrome OS. If I do make changes I just re-upload the   newer file back to OneDrive manually. I try and not do this often unless absolutely needed. 
   
-5. Install a secure password generator in terminal if you don't want to use the keepass password generator. I user pwgen to generate secure random passwords.
+5. Install a secure password generator in terminal if you don't want to use the keepass password generator. I use pwgen to generate secure random passwords.
 
   ```
   sudo apt install pwgen
@@ -146,7 +146,7 @@ Options supported by pwgen:
   pwgen -s -y -c -n 14 1
   ```
   
-  This commamnd will generate one secure 14 character password using symbols, atleast 1 capital letter, and atleast 1 number. Its quick and easy. To generate lots of 14 character passwords at once you can either drop the "1" off at the end or choost a different number of passwords to generate.
+  This commamnd will generate one secure 14 character password using symbols, atleast 1 capital letter, and atleast 1 number. Its quick and easy. To generate lots of 14 character passwords at once you can either drop the "1" off at the end or choose a different number of passwords to generate.
   
 6. Install Nano. Nano is a nice text editor for Linux terminal. I use it when opening up documents from emails I may receive from known contacts. Also I prefer nano to draft up emails, docs and even blog posts. 
 
@@ -171,8 +171,17 @@ Options supported by pwgen:
 
   - VPN by Private Internet access (You can sign up and pay for your accounts with giftcards if you want to use 0 personal info)
   - Microsoft Remote Desktop (I use at home to tunnel into my hyper-v host and access my internal network labs)
-  - Microsoft Word, Excel, PowerPoint, Outlook, and OneDrive
+  - Microsoft Word, Excel, PowerPoint
   - Slack
   
-  
+## Enroll in Google Advanced Protection 
+
+1.) Enrollment info can be found here: https://landing.google.com/advancedprotection/
+
+2.) I use two yubikey 5's to secure my gmail account. Link below:
+
+https://www.yubico.com/product/security-key-nfc-by-yubico
+
+
+
 Over time I'll add more to this doc. 
