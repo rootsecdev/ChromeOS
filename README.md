@@ -1,5 +1,12 @@
 # ChromeOS Security Notes
 
+## MIT Analysis of Chrome OS Security
+
+This document is a great overview and read on Chrome OS security especially on adveserial threat models. 
+
+http://dhanus.mit.edu/docs/ChromeOSSecurity.pdf
+
+
 ## Account Security Checkup
 
 https://myaccount.google.com/data-and-personalization
